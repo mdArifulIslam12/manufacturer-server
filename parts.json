@@ -1,0 +1,55 @@
+
+[
+    {"bolgs": 1},
+    {"date":"April 16, 2022","name":"Harum, at sequi impedit","detail":"Harum, at sequi impodit suscipit excepturi sint Quaerat, facilis.","img":"https://cdn.shopify.com/s/files/1/0430/5945/articles/post-2_370x275_crop_top.jpg?v=1604580046"},
+    {"date":"April 28, 2022","name":"Curabitur at elit Vestibulum","detail":"Tempore, perspicitais, modi sed,qui,fugiat vel ducimus dignissimos itaque ","img":"https://cdn.shopify.com/s/files/1/0430/5945/articles/post-3_370x275_crop_top.jpg?v=1604580081"},
+    {"date":"April 08, 2022","name":"Repellendus consequutur aut ullam","detail":"Provident vitae corrupti culpa ullam quis facere veritatis adipisci aliquid","img":"https://cdn.shopify.com/s/files/1/0430/5945/articles/post-1_370x275_crop_top.jpg?v=1604580029"},
+
+    {"buniss":1},
+
+    {"_id":{"$oid":"6290937ad7bbb2c89df9fa07"},"name":"Countries","img":"https://i.ibb.co/R9p8kBg/trust-removebg-preview.png","value":{"$numberInt":"100"}},
+    {"_id":{"$oid":"6290937ad7bbb2c89df9fa08"},"name":"Complete Project","img":"https://i.ibb.co/MpSqvLJ/trust-1-removebg-preview.png","value":{"$numberInt":"735"}},
+    {"_id":{"$oid":"6290937ad7bbb2c89df9fa0a"},"name":"Feedbacks","img":"https://i.ibb.co/dp4dsFD/trust-3-removebg-preview.png","value":{"$numberInt":"650"}},
+    {"_id":{"$oid":"6290937ad7bbb2c89df9fa09"},"name":"Happy Clients","img":"https://i.ibb.co/ScKt3Y3/trust-1-removebg-preview.png","value":{"$numberInt":"535"}},
+
+    {"facture":1},
+    {"_id":{"$oid":"628b65f0d7bbb2c89d646395"},"name":"Cases","img":"https://cdn.shopify.com/s/files/1/0430/5945/collections/apple_g5_powermac_2ghz_desktop_computer_1_268x268_crop_top.png?v=1396975640"},
+    {"_id":{"$oid":"628b65f0d7bbb2c89d64639b"},"name":"Networking / Modem","img":"https://cdn.shopify.com/s/files/1/0430/5945/collections/team_group_flash_drive_c113_2_268x268_crop_top.png?v=1396976471"},
+    {"_id":{"$oid":"628b65f0d7bbb2c89d646396"},"name":"Accessories","img":"https://cdn.shopify.com/s/files/1/0430/5945/collections/iomega_ego_1_tb_usb_2-0_desktop_external_hard_drive_1_268x268_crop_top.png?v=1396975554"},
+    {"_id":{"$oid":"628b65f0d7bbb2c89d646397"},"name":"Controller Cards","img":"https://cdn.shopify.com/s/files/1/0430/5945/collections/g-o-o-d_geforce_gtx_580_1_268x268_crop_top.png?v=1396975859"},
+    {"_id":{"$oid":"628b65f0d7bbb2c89d646394"},"name":"Clearance","img":"https://cdn.shopify.com/s/files/1/0430/5945/products/3dconnexion_3d_space_explorer_fmo-3sn_1_268x268_crop_top.png?v=1396975016"},
+    {"_id":{"$oid":"628b65f0d7bbb2c89d646399"},"name":"Drive Enclosures","img":"https://cdn.shopify.com/s/files/1/0430/5945/collections/lacie_starck_desktop_external_hard_drive_1tb_1_268x268_crop_top.png?v=1396975948"},
+    {"_id":{"$oid":"628b65f0d7bbb2c89d64639a"},"name":"Games Pc","img":"https://cdn.shopify.com/s/files/1/0430/5945/collections/raidmax_blade_atx-818wb_1_268x268_crop_top.png?v=1396976094"},
+    {"_id":{"$oid":"628b65f0d7bbb2c89d646398"},"name":"Cpus (processors)","img":"https://cdn.shopify.com/s/files/1/0430/5945/collections/be_quiet__intros_dark_rock_pro_cpu_cooler_1_268x268_crop_top.png?v=1396975906"},
+
+    {"order":1},
+
+    {"_id":{"$oid":"628c4c990b6cb742a213c39c"},"productName":"Asus Sabertooth X99 ATX DDR4 3000","totalQuantity":{"$numberInt":"80"},"totalPrice":{"$numberInt":"9600"},"name":"Md Arif","email":"mdarif767778@gmail.com","phone":"","paid":true,"transactionId":"pi_3L4NsUHAOqOcaQ1c1OyGdkgE"},
+    {"_id":{"$oid":"628c4e180b6cb742a213c39f"},"productName":"Crucial-BX100-250GB-Stat","totalQuantity":{"$numberInt":"80"},"totalPrice":{"$numberInt":"9600"},"name":"Md Arif","email":"mdarif767778@gmail.com","phone":"","paid":true,"transactionId":"pi_3L590WHAOqOcaQ1c1PswXmrW"},
+    {"_id":{"$oid":"628c706a4f7a41bbef5474bc"},"productName":"Asus Sabertooth X99 ATX DDR4 3000","totalQuantity":{"$numberInt":"80"},"totalPrice":{"$numberInt":"9600"},"name":"Md Arif","email":"mdarif767778@gmail.com","phone":""},
+    {"_id":{"$oid":"628d5c2cb3cd4f605e9a9d70"},"productName":"EVGA GeForce GTX 980","totalQuantity":{"$numberInt":"150"},"totalPrice":{"$numberInt":"9000"},"name":"Md Arif","email":"mdarif767778@gmail.com","phone":""},
+    {"parts":1},
+    {"_id":{"$oid":"628ceb06d7bbb2c89d4b80cb"},"name":"Asus Maximus Vii Hero","price":{"$numberInt":"140"},"minimum":{"$numberInt":"190"},"available":{"$numberInt":"111250"},"detail":"It is a tremendous achievement of mankind. It is totally safe for environment and for the people, it runs with electricity.","img":"https://livedemo00.template-help.com/prestashop_57939/img/p/3/0/30-tm_home_default.jpg"},
+    {"_id":{"$oid":"628ceb06d7bbb2c89d4b80ca"},"name":"EVGA GeForce GTX 980","price":{"$numberInt":"60"},"minimum":{"$numberInt":"150"},"available":{"$numberInt":"110593"},"detail":"You know that computers are being applied in all spheres of society.","img":"https://livedemo00.template-help.com/prestashop_57939/img/p/6/0/60-tm_home_default.jpg"},
+    {"_id":{"$oid":"628ceb06d7bbb2c89d4b80c9"},"name":"Asus Sabertooth X99 ATX DDR4 3000","price":{"$numberInt":"120"},"minimum":{"$numberInt":"180"},"available":{"$numberInt":"111350"},"detail":"We are living in the epoch of great technical progress and we are sure that new technologies are our future","img":"https://livedemo00.template-help.com/prestashop_57939/img/p/3/6/36-tm_home_default.jpg"},
+    {"_id":{"$oid":"628ceb06d7bbb2c89d4b80cc"},"name":"Crucial-BX100-250GB-Stat","price":{"$numberInt":"120"},"minimum":{"$numberInt":"180"},"available":{"$numberInt":"111150"},"detail":"Some people are even afraid of such rapid and striking computer expansion; they state that mankind is in danger because of it.","img":"https://livedemo00.template-help.com/prestashop_57939/img/p/4/9/49-home_default.jpg"},
+    {"_id":{"$oid":"628ceb06d7bbb2c89d4b80ce"},"name":"WD Black 1TB Hard Drive","price":{"$numberInt":"110"},"minimum":{"$numberInt":"100"},"available":{"$numberInt":"11450"},"detail":"Their main argument is the problem of artificial intelligence. But we hope that all these problems will disappear soon","img":"https://template58486.motopreview.com/mt-demo/58400/58486/mt-content/uploads/2016/05/mt-0410-products-20-3.jpg"},
+    {"_id":{"$oid":"628ceb06d7bbb2c89d4b80cd"},"name":"CPU Cooler H100i","price":{"$numberInt":"90"},"minimum":{"$numberInt":"160"},"available":{"$numberInt":"11250"},"detail":"The most important thing is that the computer technology has great perspectives for further development and it could be called a panacea for humanity.","img":"https://livedemo00.template-help.com/prestashop_57939/img/p/4/2/42-tm_home_default.jpg"},
+
+    {"paymet":1},
+
+    {"_id":{"$oid":"62920840844f552d73d12c48"},"order":"628c4c990b6cb742a213c39c","transactionId":"pi_3L4NsUHAOqOcaQ1c1OyGdkgE"},
+    {"_id":{"$oid":"62925f79ecdfba9c12382cfd"},"order":"628c4dbc0b6cb742a213c39e","transactionId":"pi_3L4Td7HAOqOcaQ1c0FJYoRka"},
+    {"_id":{"$oid":"6294cc383d77700a4aa60cee"},"order":"628c4e180b6cb742a213c39f","transactionId":"pi_3L590WHAOqOcaQ1c1PswXmrW"},
+
+    {"reveiw":1},
+    {"_id":{"$oid":"628b663bd7bbb2c89d64a9c8"},"name":"John Smith","rating":{"$numberDouble":"3.9"},"detail":"Awesome product","img":"https://mdarifulislam12.github.io/leaderboard/img/players/player-2.png"},
+    {"_id":{"$oid":"628b663bd7bbb2c89d64a9c9"},"name":"Alexander","rating":{"$numberDouble":"4.3"},"detail":"There are many benefits to using it.","img":"https://mdarifulislam12.github.io/leaderboard/img/players/player-3.png"},
+    {"_id":{"$oid":"628b663bd7bbb2c89d64a9c7"},"name":"Oliver","rating":{"$numberDouble":"4.7"},"detail":"It's build quality is awesome.","img":"https://mdarifulislam12.github.io/leaderboard/img/players/player-1.png"},
+
+    {"user":1},
+
+    {"_id":{"$oid":"629161eed7bbb2c89dacd056"},"email":"mdarif767778@gmail.com","education":"HSC","location":"cumilla","phone":"01611010930"},
+    {"_id":{"$oid":"6294c432d7bbb2c89df04d44"},"email":"mdarif@gmail.com","role":"admin","education":"HSC","location":"cumilla","phone":"012354894547"},
+    {"_id":{"$oid":"6290d57cd7bbb2c89d449419"},"email":"mdarif@gamil.com","role":"admin","education":"HSC","location":"cumilla","phone":"012354894547"}
+]

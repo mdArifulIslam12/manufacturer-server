@@ -3,17 +3,31 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 const app = express()
-const port = process.env.PORT || 5000
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY)
+const port = process.env.PORT || 5001
+// const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY)
 
 app.use(cors());
 app.use(express.json());
 
+
+
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.kybxr.mongodb.net/?retryWrites=true&w=majority`;
+
+
+
+// const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.a2sdt.mongodb.net/?retryWrites=true&w=majority`;
+// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+
+const uri = "mongodb+srv://computers:tCCfUnBSXhrMD6gB@cluster0.kybxr.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 
+
+
+
+app.get('/',(req,res)=>
+    res.send('Hello World')
+)
 
 async function run() {
     try {
@@ -26,7 +40,7 @@ async function run() {
       const userCollection = client.db('computer').collection('user');
       const businessCollection = client.db('computer').collection('business');
       const paymentCollection = client.db('computer').collection('payment');
-    //
+    
 
     app.post('/create-payment-intent',async(req,res)=>{
         const order = req.body;
@@ -41,7 +55,7 @@ async function run() {
         res.send({clientSecret: paymentIntent.client_secret})
         }
     })
-      // part
+    
       app.get('/parts', async(req,res)=>{
           const query = {}
           const result =  await partsCollection.find(query).toArray()
@@ -192,9 +206,7 @@ async function run() {
     }
 }
 run().catch(console.dir)
-app.get('/',(req,res)=>
-    res.send('Hello World')
-)
+
 app.listen(port, () => {
     console.log(`Munfacturer Computer  listening on port ${port}`)
   })
