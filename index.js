@@ -15,8 +15,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 
 
-// const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.a2sdt.mongodb.net/?retryWrites=true&w=majority`;
-// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+
 
 const uri = "mongodb+srv://computers:tCCfUnBSXhrMD6gB@cluster0.kybxr.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
